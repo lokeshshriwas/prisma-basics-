@@ -1,3 +1,17 @@
-node_modules
-# Keep environment variables out of version control
+# Node.js dependencies
+node_modules/
+
+# Compiled files
+dist/
+
+# Prisma generated files
+.prisma/
+
+# Environment variables
 .env
+
+# Logs
+*.log
+
+# Optional: If you use TypeScript, keep the TypeScript cache
+*.tsbuildinfo
